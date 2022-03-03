@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
+
+
+* {
+    font-family: 'montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.navbar {
+    background: #2A9D8F;
+    align-items: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    justify-content: space-between;
+}
+.company-name {
+    font-family: 'comforter Brush', cursive;
+    font-weight: normal;
+    font-size: 60px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav {
+    margin-left: auto;
+    list-style: none;
+    display: block;
+}
+.nav-menu {
+    list-style: none;
+    /* display: inline; */
+    padding: 0;
+    display: inline-flex;
+    gap: 8px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+}
+
+.nav-link:hover {
+    color: rgb(98, 98, 98);
+}
+
+.hero-container {
+
+}
+
+.btn-1 {
+    background: #FAD4C0;
+    color: black;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.btn-1:hover {
+    color: rgb(75, 71, 71);
+}
+
