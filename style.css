@@ -4,7 +4,6 @@
 
 * {
     font-family: 'montserrat', sans-serif; 
-    /* box-sizing: border-box;    */
 }
 
 body {
@@ -12,9 +11,8 @@ body {
 }
 
 .navbar {
-    /* background: #2A9D8F; */
-    /* background: linear-gradient(90deg, rgba(252,74,74,1) 0%, rgba(226,119,255,1) 35%, rgba(110,223,246,1) 100%); */
-    background: rgb(25,22,69);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(25,22,69,1) 19%, rgba(67,198,164,1) 96%);
+
     padding: 5px 0;
 }
 
@@ -35,10 +33,12 @@ body {
     margin-right: auto;
     display: flex;
 }
+
 .nav-menu {
     margin-left: auto;
     margin-right: auto;
 }
+
 .menu {
     list-style: none;
     display: flex;
@@ -55,20 +55,15 @@ body {
 }
 
 .nav-link:hover {
-    /* color: rgb(98, 98, 98); */
     color: rgb(146, 141, 141);
 
 }
 
-.hero {
-    /* background: linear-gradient(90deg, rgba(252,74,74,1) 0%, rgba(226,119,255,1) 35%, rgba(110,223,246,1) 100%); */
-    background: rgb(25,22,69);
+.hero-container {
+    margin-left: 1rem;
+    margin-right: 1rem;
     color: rgb(255,255,255);
     padding: 5rem;
-}
-
-.hero-container {
-    /* padding: 0 1rem; */
 }
 
 .hero-context {
@@ -76,11 +71,12 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    font-size: large;
 }
 
 .btn-1 {
-    background: rgb(67,198,172);
-    color: black;
+    background: rgb(25,22,69);
+    color: rgb(255,255,255);
     font-weight: bolder;
     border: none;
     padding: 10px 25px;
@@ -88,22 +84,26 @@ body {
 }
 
 .btn-1:hover {
-    color: rgb(255,255,255);
+    color: rgb(146, 141, 141);
     display: inline;
 }
 
 .hero-img {
-    display: flex;
-    position: relative;
-    width: 500px;
+    width: auto;
+    height: auto;
+}
+
+.team {
+    text-align: center;
+    padding: 7rem;
+
 }
 
 .our_team{
-    width: auto;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 7rem;
+    padding-top: 3rem;
 }
 
 .team_member{
@@ -113,7 +113,6 @@ body {
 }
 
 .member_img{
-    max-width: 190px;
     width: auto;
     height: auto;
     margin: 0 auto;
@@ -123,7 +122,7 @@ body {
 }
 
 .member_img img{
-    width: auto;
+    width: 200px;
     height: auto;
 }
 
@@ -134,6 +133,7 @@ body {
     letter-spacing: 2px;
     margin: 15px 0 0px;
 }
+
 .team_member span{
   font-size: 10px;
 }
