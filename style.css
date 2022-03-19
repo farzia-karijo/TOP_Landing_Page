@@ -13,7 +13,8 @@ body {
 
 .navbar {
     /* background: #2A9D8F; */
-    background: linear-gradient(90deg, rgba(252,74,74,1) 0%, rgba(226,119,255,1) 35%, rgba(110,223,246,1) 100%);
+    /* background: linear-gradient(90deg, rgba(252,74,74,1) 0%, rgba(226,119,255,1) 35%, rgba(110,223,246,1) 100%); */
+    background: rgb(25,22,69);
     padding: 5px 0;
 }
 
@@ -29,7 +30,7 @@ body {
     font-family: 'comforter Brush', cursive;
     text-decoration: none;
     font-size: 60px;
-    color: white;
+    color: rgb(255,255,255);
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -49,34 +50,37 @@ body {
 
 .nav-link {
     text-decoration: none;
-    color: black;
+    color: rgb(255,255,255);
     font-weight: bold;
 }
 
 .nav-link:hover {
-    color: rgb(98, 98, 98);
+    /* color: rgb(98, 98, 98); */
+    color: rgb(146, 141, 141);
+
 }
 
 .hero {
-    display: block;
-    padding: 5rem 25rem;
-    height: auto;
-    max-width: 100%;
+    /* background: linear-gradient(90deg, rgba(252,74,74,1) 0%, rgba(226,119,255,1) 35%, rgba(110,223,246,1) 100%); */
+    background: rgb(25,22,69);
+    color: rgb(255,255,255);
+    padding: 5rem;
 }
 
 .hero-container {
-    padding: 0 1rem;
+    /* padding: 0 1rem; */
 }
 
 .hero-context {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
 }
 
 .btn-1 {
-    background: rgba(252,74,74,1);
-    color: white;
+    background: rgb(67,198,172);
+    color: black;
     font-weight: bolder;
     border: none;
     padding: 10px 25px;
@@ -84,7 +88,7 @@ body {
 }
 
 .btn-1:hover {
-    color: black;
+    color: rgb(255,255,255);
     display: inline;
 }
 
@@ -93,3 +97,126 @@ body {
     position: relative;
     width: 500px;
 }
+
+.our_team{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 7rem;
+}
+
+.team_member{
+    width: 250px;
+    margin: 5px;
+    padding: 20px 10px;
+}
+
+.member_img{
+    max-width: 190px;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    padding: 5px;
+    position: relative;
+    cursor: pointer;
+}
+
+.member_img img{
+    width: auto;
+    height: auto;
+}
+
+.team_member h3{
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    margin: 15px 0 0px;
+}
+.team_member span{
+  font-size: 10px;
+}
+
+.team_member p{
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.quote {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 7rem;
+    background: rgb(229,229,229);
+}
+
+.quote-container {
+    width: 69rem;
+    padding: 20px 10px;
+}
+
+.quote-p {
+    font-size: xx-large;
+    text-align: center;
+}
+
+.quoter {
+    font-size: x-large;
+    font-style: italic;
+    text-align: right;
+}
+
+.sign-up {
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-content {
+    background: rgb(67,198,172);
+    width: 69rem;
+    height: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.signup-text {
+    font-size: large;
+}
+
+.btn-2 {
+    background: rgb(25,22,69);
+    color: rgb(229,229,229);
+    font-weight: bolder;
+    border: none;
+    padding: 10px 25px;
+    margin-left: 5rem;
+    border-radius: 8px;
+}
+
+.btn-2:hover {
+    color: rgb(146, 141, 141);
+    display: inline;
+}
+
+.footer {
+    background: rgb(25,22,69);
+    padding: 5px 0;
+    display: block;
+}
+
+.footer-content {
+    color: rgb(229,229,229);
+    text-align: center;
+    padding: 10px;
+}
+
+
+
